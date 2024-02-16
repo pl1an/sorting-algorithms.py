@@ -3,4 +3,4 @@ Algumas tentativas em imitar os sorting algorithms mais comuns, incluindo coment
 
 Planejo continuar adicionando cada vez mais algoritimos diferentes, e eventualmente uma forma de visualização gráfica.  
 
-Apenas um pequeno projeto apra aprofundar meus conhecimentos em python.  
+Apenas um pequeno projeto para aprofundar meus conhecimentos em python.  
