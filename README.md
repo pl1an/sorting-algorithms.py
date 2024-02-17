@@ -6,7 +6,5 @@ Planejo continuar adicionando cada vez mais métodos para sorting, e eventualmen
 Apenas um pequeno projeto para aprofundar meus conhecimentos em python.  
 
 # fontes
-[https://github.com/gustavo-depaula/stalin-sort/blob/master/python/stalin_sort.py](https://github.com/gustavo-depaula/stalin-sort/blob/master/python/stalin_sort.py
-)https://github.com/gustavo-depaula/stalin-sort/blob/master/python/stalin_sort.py  
-[https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br
-)https://www.datascienceacademy.com.br  
+[https://github.com/gustavo-depaula/stalin-sort](https://github.com/gustavo-depaula/stalin-sort)  
+[https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br)  
