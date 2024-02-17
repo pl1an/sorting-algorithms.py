@@ -9,6 +9,7 @@ def sorted(ar):
     return True
 
 # this is not exactly bogo sort, since it just switches elements randomly instead of shuffling the whole array
+# this is actually called bozo sort
 """
 while sorted(example_array) == False:
     a = random.randint(0, len(example_array)-1)
@@ -17,7 +18,7 @@ while sorted(example_array) == False:
 """
 
 # true bogo sort algorithm
-while sorted(example_array) == False:
+while not sorted(example_array):
     for i in range(len(example_array)):
         n = random.randint(0, len(example_array)-1)
         example_array[i], example_array[n] = example_array[n], example_array[i]
