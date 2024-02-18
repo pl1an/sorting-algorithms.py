@@ -8,3 +8,5 @@ Apenas um pequeno projeto para aprofundar meus conhecimentos em python.
 # fontes
 [https://github.com/gustavo-depaula/stalin-sort](https://github.com/gustavo-depaula/stalin-sort)  
 [https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br)  
+[https://metacpan.org/pod/Acme::Sort::Bozo#:~:text=The%20Bozo%20is%20a%20sort,swap%20them%2C%20and%20test%20again.
+](https://metacpan.org/pod/Acme::Sort::Bozo#:~:text=The%20Bozo%20is%20a%20sort,swap%20them%2C%20and%20test%20again.)
