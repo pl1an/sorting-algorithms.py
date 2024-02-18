@@ -15,7 +15,8 @@ example_array = temp_list
 # works properly, but it´s slower than the actual stalin sort.
 # it's slower because it removes one element and then loops again through the entire array.
 # also a lower value in the end of the array will cause the deletion of all the higher values before them,
-# while in true stalin sort it would be deleted instead, which causes a bigger loss of data
+# while in true stalin sort it would be deleted instead, which might cause a bigger loss of data
+# example: [30, 31, 32, 4, 50, 55, 0, 1] -> [0, 1]
 """
 def sorted(ar):
     for i in range(0, len(ar) - 1):
@@ -31,6 +32,8 @@ while not sorted(example_array):
 """
 
 # true stalin sort
+# a higher value in the beginning of the array will cause deletion of all lower values after them
+# example: [0, 1, 55, 2, 3, 4] -> [0, 1, 55]
 max_val = example_array[0]
 example_array = [max_val := x for x in example_array if x >= max_val]
 
