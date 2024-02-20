@@ -30,7 +30,7 @@ for n in range(len(example_array)):
         example_array[j+1] = example_array[j]
         j -= 1
     example_array[j + 1] = key
-    print(example_array)
+    # print(example_array)
 
 print(example_array)
 print('done')
