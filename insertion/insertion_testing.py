@@ -1,4 +1,4 @@
-example_array = [0, 1, 43, 3, 2, 55, 7, 0, 23, 4]
+example_array = [0, 1, 43, 3, 2, 55, 55, 7, 0, 23, 4, -1]
 # print(example_array)
 
 # funny behaviour, works similarly to an insertion algorithm, but it sorts the list twice-ish

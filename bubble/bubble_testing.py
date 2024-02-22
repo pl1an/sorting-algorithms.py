@@ -1,7 +1,7 @@
 example_array = [0, 1, 43, 3, 2, 55, 7, 0, 23, 4]
 # print(example_array)
 
-# works in the same way as the bubble sort algorithm, but is inefficient
+# works in the same way as the bubble sort algorithm, but is not optimized
 """
 while True:
     pos = 0

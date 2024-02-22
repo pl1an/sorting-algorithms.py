@@ -9,8 +9,11 @@ def sorted(ar):
             return False
     return True
 
-# true bozo sort? couldn't find any examples in python
+# true bozo sort algorithm
 while not sorted(example_array):
     a = random.randint(0, len(example_array)-1)
     b = random.randint(0, len(example_array) - 1)
     example_array[a], example_array[b] = example_array[b], example_array[a]
+
+print(example_array)
+print('done')

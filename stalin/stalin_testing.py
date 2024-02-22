@@ -31,7 +31,7 @@ while not sorted(example_array):
             break
 """
 
-# true stalin sort
+# true stalin sort algorithm
 # a higher value in the beginning of the array will cause deletion of all lower values after them
 # example: [0, 1, 55, 2, 3, 4] -> [0, 1, 55]
 max_val = example_array[0]
