@@ -5,11 +5,11 @@ Planejo continuar adicionando cada vez mais métodos para sorting, e eventualmen
 
 # fontes
 As fontes incluem documentação sobre cada um dos algorítimos e versões de referência  
-[https://github.com/gustavo-depaula/stalin-sort](https://github.com/gustavo-depaula/stalin-sort)  
-[https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br)  
-[https://metacpan.org/pod/Acme::Sort::Bozo#:~:text=The%20Bozo%20is%20a%20sort,swap%20them%2C%20and%20test%20again.
+- [https://github.com/gustavo-depaula/stalin-sort](https://github.com/gustavo-depaula/stalin-sort)
+- [https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br)  
+- [https://metacpan.org/pod/Acme::Sort::Bozo#:~:text=The%20Bozo%20is%20a%20sort,swap%20them%2C%20and%20test%20again.
 ](https://metacpan.org/pod/Acme::Sort::Bozo#:~:text=The%20Bozo%20is%20a%20sort,swap%20them%2C%20and%20test%20again.)  
-[https://www.scaler.com/topics/selection-sort-in-python/](https://www.scaler.com/topics/selection-sort-in-python/)  
-https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/  
-https://www.geeksforgeeks.org/python-program-for-quicksort/  
-https://joaoarthurbm.github.io/eda/posts/quick-sort/  
+- [https://www.scaler.com/topics/selection-sort-in-python/](https://www.scaler.com/topics/selection-sort-in-python/)  
+- https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/  
+- https://www.geeksforgeeks.org/python-program-for-quicksort/  
+- https://joaoarthurbm.github.io/eda/posts/quick-sort/  
