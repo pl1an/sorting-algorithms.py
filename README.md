@@ -1,9 +1,29 @@
 # testes com sorting algorithms
-Cada pasta no projeto contém um arquivo de testes (*nome-do-algorítimo_testing*), onde múltiplas versões de cada algorítimo foram testadas e comparadas com as verdadeiras, além de um arquivo limpo (*nome-do-algorítmo_sort*), onde somente a versão mais otimizada o possível permanece dentro de uma função em python.  
 
-Planejo continuar adicionando cada vez mais métodos para sorting, e eventualmente uma forma de visualização gráfica para o processo de ordenar um array.  
+## Introdução
 
-# fontes
+### testing-algorithms
+Cada pasta dentro desse arquivo contém um conjunto de testes dentro de outra pasta (*nome-do-algorítimo_testing*),
+onde múltiplas versões de cada algorítimo foram testadas e comparadas com as verdadeiras.  
+Além disso, um arquivo limpo (*nome-do-algorítmo_sort*), onde somente a versão mais otimizada o possível de cada
+algorítimo também pode ser encontrado dentro das suas respectivas pastas.
+
+### graphical-visualization
+Essa pasta contém um arquivo *main-plotter.py* que é capaz de mostrar visualizações gráficas de
+alguns dos algorítimos da *testing-algorithms*.  
+Atualmente é possível visualizar *bubble sort*, *insertion sort* e *selection sort*.
+O algorítimo desejado pode ser selecionado ao mudar o valor da variável *function_position* 
+dentro do *main-plotter.py*.
+
+## Metas e Updates
+- Planejo eventualmente colocar todos os algorítimos dentro da *testing-algorithms* como
+opções da visualização gráfica.
+- As animações feitas através do *matplotlib* para as demonstrações gráficas diminuem em
+muito a velocidade dos algorítimos. Planejo encontrar uma forma de resolver esse problema.
+- Além disso, planejo continuar adicionando cada vez mais algorítimos ao *testing-algorithms*
+e subsequentemente às opções de visualização gráfica.
+
+## Fontes
 As fontes incluem documentação sobre cada um dos algorítimos e versões de referência  
 - [https://github.com/gustavo-depaula/stalin-sort](https://github.com/gustavo-depaula/stalin-sort)
 - [https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br)  
@@ -13,3 +33,4 @@ As fontes incluem documentação sobre cada um dos algorítimos e versões de re
 - https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/  
 - https://www.geeksforgeeks.org/python-program-for-quicksort/  
 - https://joaoarthurbm.github.io/eda/posts/quick-sort/  
+- https://www.youtube.com/watch?v=Ercd-Ip5PfQ
