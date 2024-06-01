@@ -3,10 +3,17 @@ from matplotlib.animation import FuncAnimation
 from database_gen import data_generator as datagen
 import algorithm_steps as alg
 
-data = datagen.shuffle(datagen.generate_data(100), 100)
+# generating data
+data = datagen.shuffle(datagen.generate_data(200), 2000)
 x_axis = range(len(data))
 loop_counter = 0
 
+# creating plots
+figure = plt.figure()
+ax1 = figure.add_subplot(1, 1, 1)
+line = ax1.bar(x_axis, data)
+
+# algorithms list
 algorithms = [alg.bubble_step, alg.insertion_step, alg.selection_step]
 function_position = 0  # change this value to change selected function
 
@@ -19,11 +26,12 @@ def sort_animation(i):
     if(loop_counter==len(data)):
         ani.event_source.stop()
 
-    plt.cla()
-    plt.plot(x_axis, data)
+    for rect, h in zip(line, data):
+        rect.set_height(h)
 
 
-ani = FuncAnimation(plt.gcf(), sort_animation, interval=0, cache_frame_data=False)
+ani = FuncAnimation(plt.gcf(), sort_animation, interval=1, cache_frame_data=False)
 
 plt.tight_layout()
+plt.get_current_fig_manager().window.showMaximized()
 plt.show()
