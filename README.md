@@ -18,8 +18,6 @@ dentro do *main-plotter.py*.
 ## Metas e Updates
 - Planejo eventualmente colocar todos os algorítimos dentro da *testing-algorithms* como
 opções da visualização gráfica.
-- As animações feitas através do *matplotlib* para as demonstrações gráficas diminuem em
-muito a velocidade dos algorítimos. Planejo encontrar uma forma de resolver esse problema.
 - Além disso, planejo continuar adicionando cada vez mais algorítimos ao *testing-algorithms*
 e subsequentemente às opções de visualização gráfica.
 
