@@ -4,7 +4,7 @@ from database_gen import data_generator as datagen
 import algorithm_steps as alg
 
 # generating data
-data = datagen.shuffle(datagen.generate_data(200), 2000)
+data = datagen.shuffle(datagen.generate_data(100), 200)
 x_axis = range(len(data))
 loop_counter = 0
 
@@ -14,16 +14,15 @@ ax1 = figure.add_subplot(1, 1, 1)
 line = ax1.bar(x_axis, data)
 
 # algorithms list
-algorithms = [alg.bubble_step, alg.insertion_step, alg.selection_step]
-function_position = 0  # change this value to change selected function
+algorithms = [alg.bubble_step, alg.insertion_step, alg.selection_step, alg.bozo_step, alg.bogo_step]
+function_position = 1  # change this value to change selected function
 
 
 def sort_animation(i):
     global loop_counter
-    algorithms[function_position](data, loop_counter)
-    loop_counter += 1
+    loop_counter = algorithms[function_position](data, loop_counter)
 
-    if(loop_counter==len(data)):
+    if(loop_counter>=len(data)):
         ani.event_source.stop()
 
     for rect, h in zip(line, data):
