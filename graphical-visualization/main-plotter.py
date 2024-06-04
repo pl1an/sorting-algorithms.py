@@ -3,8 +3,18 @@ from matplotlib.animation import FuncAnimation
 from database_gen import data_generator as datagen
 import algorithm_steps as alg
 
+# getting inputs
+datalen = int(input("test array length: "))
+max_shuffles = int(input("test array shuffles: "))
+print("\n-1 bubble sort"
+      "\n-2 insertion sort"
+      "\n-3 selection sort"
+      "\n-4 bozo sort"
+      "\n-5 bogo sort")
+sortselection = int(input("//select your sorting method: "))-1
+
 # generating data
-data = datagen.shuffle(datagen.generate_data(100), 200)
+data = datagen.shuffle(datagen.generate_data(datalen), max_shuffles)
 x_axis = range(len(data))
 loop_counter = 0
 
@@ -15,7 +25,7 @@ line = ax1.bar(x_axis, data)
 
 # algorithms list
 algorithms = [alg.bubble_step, alg.insertion_step, alg.selection_step, alg.bozo_step, alg.bogo_step]
-function_position = 1  # change this value to change selected function
+function_position = sortselection  # change this value to change selected function
 
 
 def sort_animation(i):
