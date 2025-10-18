@@ -1,28 +1,21 @@
-# testes com sorting algorithms
+# Tests with Sorting Algorithms
 
-## Introdução
+## File Structure
 
 ### testing-algorithms
-Cada pasta dentro desse arquivo contém um conjunto de testes dentro de outra pasta (*nome-do-algorítimo_testing*),
-onde múltiplas versões de cada algorítimo foram testadas e comparadas com as verdadeiras.  
-Além disso, um arquivo limpo (*nome-do-algorítmo_sort*), onde somente a versão mais otimizada o possível de cada
-algorítimo também pode ser encontrado dentro das suas respectivas pastas.
+Each folder inside this file contains a set of tests inside another file (*algorithm-name_testing*), where multiple versions of each algorithm were tested and compared with their true versions.
+Other than that, a clean file (*algorithm-name_sort.py*), where the most optimized possible version of each algorithm can be found, is also contained within this folder.
 
 ### graphical-visualization
-Essa pasta contém um arquivo *main-plotter.py* que é capaz de mostrar visualizações gráficas de
-alguns dos algorítimos da *testing-algorithms*.  
-Atualmente é possível visualizar *bubble sort*, *insertion sort* e *selection sort*.
-O algorítimo desejado pode ser selecionado ao mudar o valor da variável *function_position* 
-dentro do *main-plotter.py*.
+This folder contains a file *main-plotter.py* which is capable of showing graphical visualizations of some of the algorithms teste in *testing-algorithms*.
+Currently, it is possible to visualize *bubble sort*, *insertion sort* and *selection sort*.
+The desired algorithm can be select by changing the value of the variable *function_position* inside *main-plotter.py*.
 
-## Metas e Updates
-- Planejo eventualmente colocar todos os algorítimos dentro da *testing-algorithms* como
-opções da visualização gráfica.
-- Além disso, planejo continuar adicionando cada vez mais algorítimos ao *testing-algorithms*
-e subsequentemente às opções de visualização gráfica.
+## Future Updates
+- I plan to make every algorithm avaliable for graphical visualizations.
+- Other than that, I plan to keep adding more algorithms to test.
 
-## Fontes
-As fontes incluem documentação sobre cada um dos algorítimos e versões de referência, além de documentações e outros documentos úteis.
+## Sources
 - https://matplotlib.org/stable/index.html
 - [https://github.com/gustavo-depaula/stalin-sort](https://github.com/gustavo-depaula/stalin-sort)
 - [https://www.datascienceacademy.com.br](https://www.datascienceacademy.com.br)  
